@@ -7,8 +7,11 @@
 //
 
 #import "APViewController.h"
+#import "UIControl+NextControl.h"
 
 @interface APViewController ()
+
+@property (nonatomic, weak) IBOutlet UITextField *firstNameField;
 
 @end
 
@@ -20,10 +23,16 @@
 	// Do any additional setup after loading the view, typically from a nib.
 }
 
-- (void)didReceiveMemoryWarning
+- (void)viewWillAppear:(BOOL)animated
 {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+    [super viewWillAppear:animated];
+    [self.firstNameField becomeFirstResponder];
+}
+
+- (BOOL)textFieldShouldReturn:(UITextField *)textField
+{
+    [textField transferFirstReponderToNextControl];
+    return NO;
 }
 
 @end

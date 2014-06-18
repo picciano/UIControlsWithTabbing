@@ -21,6 +21,7 @@
 		E4813A4B195210A900DB30E0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E4813A2D195210A900DB30E0 /* UIKit.framework */; };
 		E4813A53195210A900DB30E0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E4813A51195210A900DB30E0 /* InfoPlist.strings */; };
 		E4813A55195210A900DB30E0 /* UIControlsWithTabbingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E4813A54195210A900DB30E0 /* UIControlsWithTabbingTests.m */; };
+		E4813A60195210D800DB30E0 /* UIControl+NextControl.m in Sources */ = {isa = PBXBuildFile; fileRef = E4813A5F195210D800DB30E0 /* UIControl+NextControl.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		E4813A50195210A900DB30E0 /* UIControlsWithTabbingTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "UIControlsWithTabbingTests-Info.plist"; sourceTree = "<group>"; };
 		E4813A52195210A900DB30E0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		E4813A54195210A900DB30E0 /* UIControlsWithTabbingTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UIControlsWithTabbingTests.m; sourceTree = "<group>"; };
+		E4813A5E195210D800DB30E0 /* UIControl+NextControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIControl+NextControl.h"; sourceTree = "<group>"; };
+		E4813A5F195210D800DB30E0 /* UIControl+NextControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIControl+NextControl.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,6 +117,8 @@
 			children = (
 				E4813A38195210A900DB30E0 /* APAppDelegate.h */,
 				E4813A39195210A900DB30E0 /* APAppDelegate.m */,
+				E4813A5E195210D800DB30E0 /* UIControl+NextControl.h */,
+				E4813A5F195210D800DB30E0 /* UIControl+NextControl.m */,
 				E4813A3B195210A900DB30E0 /* Main.storyboard */,
 				E4813A3E195210A900DB30E0 /* APViewController.h */,
 				E4813A3F195210A900DB30E0 /* APViewController.m */,
@@ -250,6 +255,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E4813A60195210D800DB30E0 /* UIControl+NextControl.m in Sources */,
 				E4813A36195210A900DB30E0 /* main.m in Sources */,
 				E4813A40195210A900DB30E0 /* APViewController.m in Sources */,
 				E4813A3A195210A900DB30E0 /* APAppDelegate.m in Sources */,
