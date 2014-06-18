@@ -23,3 +23,8 @@ Tabbing between text fields is a no-brainer from HTML, but for native iOS, there
     return NO;
 }
 ```
+
+![alt-text](https://raw.githubusercontent.com/picciano/UIControlsWithTabbing/master/docs/assign-in-storyboard.png "Assigning nextControl property in Interface Builder using Storyboards.")
+
+![alt-text](https://raw.githubusercontent.com/picciano/UIControlsWithTabbing/master/docs/keyboard-and-return-key.png "Setting keyboard properties and return key.")
+
