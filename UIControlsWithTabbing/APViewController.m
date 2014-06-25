@@ -31,7 +31,7 @@
 
 - (BOOL)textFieldShouldReturn:(UITextField *)textField
 {
-    [textField transferFirstReponderToNextControl];
+    [textField transferFirstResponderToNextControl];
     return NO;
 }
 
