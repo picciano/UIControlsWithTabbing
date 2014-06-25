@@ -12,6 +12,6 @@
 
 @property (nonatomic, weak) IBOutlet UIControl *nextControl;
 
-- (BOOL)transferFirstReponderToNextControl;
+- (BOOL)transferFirstResponderToNextControl;
 
 @end
