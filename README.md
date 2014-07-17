@@ -19,7 +19,7 @@ Tabbing between text fields is a no-brainer from HTML, but for native iOS, there
 ```objectivec
 - (BOOL)textFieldShouldReturn:(UITextField *)textField
 {
-    [textField transferFirstReponderToNextControl];
+    [textField transferFirstResponderToNextControl];
     return NO;
 }
 ```
