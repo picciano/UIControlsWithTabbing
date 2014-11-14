@@ -13,12 +13,12 @@ static char defaultHashKey;
 
 @implementation UIControl (NextControl)
 
-- (UITextField *)nextControl
+- (UIControl *)nextControl
 {
     return objc_getAssociatedObject(self, &defaultHashKey);
 }
 
-- (void)setNextControl:(UITextField *)nextControl
+- (void)setNextControl:(UIControl *)nextControl
 {
     objc_setAssociatedObject(self, &defaultHashKey, nextControl, OBJC_ASSOCIATION_RETAIN_NONATOMIC);
 }
