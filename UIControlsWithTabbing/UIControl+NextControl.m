@@ -23,7 +23,7 @@ static char defaultHashKey;
     objc_setAssociatedObject(self, &defaultHashKey, nextControl, OBJC_ASSOCIATION_RETAIN_NONATOMIC);
 }
 
-- (BOOL)transferFirstReponderToNextControl
+- (BOOL)transferFirstResponderToNextControl
 {
     if (self.nextControl)
     {
